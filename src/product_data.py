@@ -7,7 +7,7 @@ class ProductData:
     self.image_link = image_link
 
   def print_data(self) -> str:
-    return f"TITLE: {self.title}\nDESCRIPTION: {self.description}\nPRICE: {self.price}\nBRAND: {self.brand}\nIMAGE LINK: {self.image_link}"
+    return f"TITLE: {self.title}\nDESCRIPTION: {self.description}\nPRICE: {self.price}\nBRAND: {self.brand}"
 
   title = ""
   description = ""
